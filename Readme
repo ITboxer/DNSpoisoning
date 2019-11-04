@@ -1,0 +1,16 @@
+DNS Cache Poisoning 기술문서를 작성했습니다.
+
+이 과정에서, 환경구축 과정을 진행했습니다.
+
+<환경구축>
+ - Virtualbox를 사용한 Linux 환경 구축
+ - DNS server Bind8 환경 구축
+ - 모의해킹을 위한 Metasploit 환경 구축
+
+<bind8 사용 이유>
+ - bind9의 경우, DNSsec 기능이 있어 DNS Cache Poisoning이 통하지 않았습니다.
+ - bind8의 경우, 취약점이 남아 있어 공격이 통했습니다.
+ - 그렇기에 bind8을 사용했습니다.
+ 
+ 
+ 
