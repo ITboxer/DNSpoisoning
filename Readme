@@ -1,9 +1,9 @@
 DNS Cache Poisoning Report
 
 Tool Environment
- - Virtualbox를 사용한 Linux
+ - Virtualbox Linux
  - DNS server Bind8
- - 모의해킹을 위한 Metasploit
+ -  Metasploit
 
 RESULT
  - bind9 is safe because of DNSsec
